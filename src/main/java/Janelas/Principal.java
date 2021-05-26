@@ -149,10 +149,18 @@ public class Principal extends javax.swing.JFrame {
     }//GEN-LAST:event_jBCadProdutoActionPerformed
 
     private void jBMostrarFornecedorActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jBMostrarFornecedorActionPerformed
-        JOptionPane.showMessageDialog(this, "Informações do Fornecedor: \n" + "\n Razão Social: " + forn.getRazaoSocial() + "\n CNPJ: " + forn.getCnpj() + 
-                "\n Representante: " + forn.getRepresentante() + "\n Endereço: " + forn.getEndereco() + "\n Telefone: " + forn.getTelefone() + "\n" +
-           "\n Informações do Produto: " + "\n" + "\n Nome: " + prod.getNome() + "\n Descrição: " + prod.getDescricao() + "\n Valor Unitário: " +
-                prod.getValorUnit() + "\n Quantidade: " + prod.getQuantidade() + "\n Fornecedor: " + prod.getFornecedor() + "\n Valor Total: " + prod.getValorTotal());
+        
+        
+        JanelaCadastro jc = new JanelaCadastro(forn, prod);
+        jc.setVisible(true);
+        
+
+
+
+        //JOptionPane.showMessageDialog(this, "Informações do Fornecedor: \n" + "\n Razão Social: " + forn.getRazaoSocial() + "\n CNPJ: " + forn.getCnpj() + 
+        //        "\n Representante: " + forn.getRepresentante() + "\n Endereço: " + forn.getEndereco() + "\n Telefone: " + forn.getTelefone() + "\n" +
+        //   "\n Informações do Produto: " + "\n" + "\n Nome: " + prod.getNome() + "\n Descrição: " + prod.getDescricao() + "\n Valor Unitário: " +
+        //        prod.getValorUnit() + "\n Quantidade: " + prod.getQuantidade() + "\n Fornecedor: " + prod.getFornecedor() + "\n Valor Total: " + prod.getValorTotal());
     }//GEN-LAST:event_jBMostrarFornecedorActionPerformed
 
     /**
