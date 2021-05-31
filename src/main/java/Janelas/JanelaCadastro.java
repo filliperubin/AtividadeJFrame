@@ -77,14 +77,19 @@ public class JanelaCadastro extends javax.swing.JFrame {
 
         jPanel1.setBorder(javax.swing.BorderFactory.createTitledBorder("Informações do Fornecedor"));
 
+        jLRazaoSocial.setFont(new java.awt.Font("Calibri Light", 1, 14)); // NOI18N
         jLRazaoSocial.setText("jLabel2");
 
+        jLCnpj.setFont(new java.awt.Font("Calibri Light", 1, 14)); // NOI18N
         jLCnpj.setText("jLabel3");
 
+        jLRepresentante.setFont(new java.awt.Font("Calibri Light", 1, 14)); // NOI18N
         jLRepresentante.setText("jLabel4");
 
+        jLEndereco.setFont(new java.awt.Font("Calibri Light", 1, 14)); // NOI18N
         jLEndereco.setText("jLabel5");
 
+        jLTelefone.setFont(new java.awt.Font("Calibri Light", 1, 14)); // NOI18N
         jLTelefone.setText("jLabel6");
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
@@ -118,16 +123,22 @@ public class JanelaCadastro extends javax.swing.JFrame {
 
         jPanel2.setBorder(javax.swing.BorderFactory.createTitledBorder(javax.swing.BorderFactory.createTitledBorder("Informações do Produto"), "Informações do Produto"));
 
+        jLNome.setFont(new java.awt.Font("Calibri Light", 1, 14)); // NOI18N
         jLNome.setText("jLabel7");
 
+        jLDescricao.setFont(new java.awt.Font("Calibri Light", 1, 14)); // NOI18N
         jLDescricao.setText("jLabel8");
 
+        jLValorUnit.setFont(new java.awt.Font("Calibri Light", 1, 14)); // NOI18N
         jLValorUnit.setText("jLabel9");
 
+        jLQuantidade.setFont(new java.awt.Font("Calibri Light", 1, 14)); // NOI18N
         jLQuantidade.setText("jLabel10");
 
+        jLValorTotal.setFont(new java.awt.Font("Calibri Light", 1, 14)); // NOI18N
         jLValorTotal.setText("jLabel11");
 
+        jLFornecedor.setFont(new java.awt.Font("Calibri Light", 1, 14)); // NOI18N
         jLFornecedor.setText("jLabel12");
 
         javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
@@ -147,7 +158,7 @@ public class JanelaCadastro extends javax.swing.JFrame {
         jPanel2Layout.setVerticalGroup(
             jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel2Layout.createSequentialGroup()
-                .addContainerGap(32, Short.MAX_VALUE)
+                .addContainerGap()
                 .addComponent(jLNome)
                 .addGap(18, 18, 18)
                 .addComponent(jLDescricao)
@@ -159,7 +170,7 @@ public class JanelaCadastro extends javax.swing.JFrame {
                 .addComponent(jLValorTotal)
                 .addGap(18, 18, 18)
                 .addComponent(jLFornecedor)
-                .addContainerGap())
+                .addContainerGap(14, Short.MAX_VALUE))
         );
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
