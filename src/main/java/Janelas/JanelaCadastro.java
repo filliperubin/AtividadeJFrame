@@ -103,7 +103,7 @@ public class JanelaCadastro extends javax.swing.JFrame {
         jPanel1Layout.setVerticalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel1Layout.createSequentialGroup()
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addContainerGap()
                 .addComponent(jLRazaoSocial)
                 .addGap(18, 18, 18)
                 .addComponent(jLCnpj)
@@ -113,7 +113,7 @@ public class JanelaCadastro extends javax.swing.JFrame {
                 .addComponent(jLEndereco)
                 .addGap(18, 18, 18)
                 .addComponent(jLTelefone)
-                .addContainerGap())
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
         jPanel2.setBorder(javax.swing.BorderFactory.createTitledBorder(javax.swing.BorderFactory.createTitledBorder("Informações do Produto"), "Informações do Produto"));
