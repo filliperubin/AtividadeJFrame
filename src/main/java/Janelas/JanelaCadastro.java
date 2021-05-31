@@ -69,7 +69,7 @@ public class JanelaCadastro extends javax.swing.JFrame {
         jLValorTotal = new javax.swing.JLabel();
         jLFornecedor = new javax.swing.JLabel();
 
-        setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
 
         jLabel1.setFont(new java.awt.Font("Calibri Light", 1, 18)); // NOI18N
         jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
